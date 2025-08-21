@@ -7,18 +7,22 @@
   <meta name="description" content="Recapt turns your week into vibrant, shareable visuals. Recap it. Capture it. Share it.">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <!-- Modern font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#">
+      <a class="brand nav-logo" href="#">
         <img src="assets/logo.svg" alt="Recapt logo" width="36" height="36">
         <span>Recapt</span>
       </a>
-      <nav class="nav" id="nav">
-        <a href="#features">Features</a>
-        <a href="#screens">Screenshots</a>
-        <a href="#download">Download</a>
+      <nav class="nav nav-menu" id="nav">
+        <span class="nav-item"><a href="#features">Features</a></span>
+        <span class="nav-item"><a href="#screens">Screenshots</a></span>
+        <span class="nav-item"><a href="#download">Download</a></span>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="nav" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -128,27 +132,4 @@
         </div>
         <div class="store-buttons">
           <a class="store-btn" href="#"><img src="assets/appstore.svg" alt="App Store badge" width="180" height="56"></a>
-          <a class="store-btn" href="#"><img src="assets/googleplay.svg" alt="Google Play badge" width="180" height="56"></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="foot-brand">
-        <img src="assets/logo.svg" alt="Recapt logo" width="28" height="28">
-        <span>Recapt</span>
-      </div>
-      <div class="foot-links">
-        <a href="#features">Features</a>
-        <a href="#screens">Screenshots</a>
-        <a href="#download">Download</a>
-      </div>
-      <p class="copy">&copy; <span id="year"></span> Recapt</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+          <a class="
